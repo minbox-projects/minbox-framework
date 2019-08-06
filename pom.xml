@@ -12,6 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>minbox-core</module>
+        <module>minbox-dependencies</module>
     </modules>
     <groupId>org.minbox.framework</groupId>
     <artifactId>minbox-framework</artifactId>
