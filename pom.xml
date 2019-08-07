@@ -13,6 +13,7 @@
     <modules>
         <module>minbox-core</module>
         <module>minbox-dependencies</module>
+        <module>minbox-web</module>
     </modules>
     <groupId>org.minbox.framework</groupId>
     <artifactId>minbox-framework</artifactId>
