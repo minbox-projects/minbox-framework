@@ -3,14 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>minbox-framework</artifactId>
+        <artifactId>minbox-dependencies</artifactId>
         <groupId>org.minbox.framework</groupId>
         <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../minbox-dependencies</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>
         "minbox-projects" 所需核心依赖
     </description>
     <artifactId>minbox-core</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+    </dependencies>
 </project>
