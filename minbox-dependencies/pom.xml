@@ -5,13 +5,13 @@
     <parent>
         <artifactId>minbox-framework</artifactId>
         <groupId>org.minbox.framework</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <properties>
         <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
         <spring.cloud.version>Greenwich.SR2</spring.cloud.version>
-        <minbox-logging.version>1.0.0-SNAPSHOT</minbox-logging.version>
+        <minbox-logging.version>1.0.0.RELEASE</minbox-logging.version>
         <alibaba-fastjson.version>1.2.58</alibaba-fastjson.version>
     </properties>
     <packaging>pom</packaging>
